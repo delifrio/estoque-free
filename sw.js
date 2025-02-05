@@ -5,8 +5,8 @@ const urlsToCache = [
     "/style.css",
     "/app.js",
     "/firebase-config.js",
-    "/icon-192.png", // Ícone para PWA
-    "/icon-512.png"  // Ícone maior para instalação
+    "/iconpng", // Ícone para PWA
+    "/iconpng"  // Ícone maior para instalação
 ];
 
 // Instalação do Service Worker
