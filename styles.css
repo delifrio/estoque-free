@@ -1,0 +1,54 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #222;
+    padding: 10px;
+}
+
+.menu span {
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.perfil {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background-color: #333;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.quantidade {
+    width: 50px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.verde {
+    color: green;
+}
+
+.vermelho {
+    color: red;
+}
